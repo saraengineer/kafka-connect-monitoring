@@ -59,3 +59,8 @@ Finally, to monitor the kafka connector: go to Grafana http://localhost:3000:
 * Next, create the monitoring dashboard by importing the template located in grafana directory.
 
 ![image](https://github.com/SaraMaz/kafka-connect-monitoring/assets/20047882/a8476d18-2499-4dba-bc54-564b3b3d1794)
+
+# References
+
+See this [article](https://medium.com/@mengineer/kafka-connect-how-to-add-monitoring-with-prometheus-and-grafana-f0cb3d73ffd2) for more explanation.
+
