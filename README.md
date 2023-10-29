@@ -28,7 +28,7 @@ docker-compose up -d
 kafka & zookeeper, akhq, mongo database, kafkacat, schema-registry, prometheus, grafana containers will be created.
 ![image](https://github.com/SaraMaz/kafka-connect-monitoring/assets/20047882/4a5b8b64-8aeb-45cb-a570-211a10900cf6)
 
-And we can see with akhq that our topics are created:
+And we can see with akhq that our topic is created:
 
 ![image](https://github.com/SaraMaz/kafka-connect-monitoring/assets/20047882/2a1d1410-dedf-44b2-9ec7-a19be602d410)
 
