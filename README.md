@@ -3,7 +3,7 @@
 This a quick set up of  kafka, kafka ui and kafka connect with a monitoring through Prometheus and Grafana using docker compose.
 
 # Architecture
-
+![architetcure](https://github.com/SaraMaz/kafka-connect-monitoring/assets/20047882/73b16453-804f-4963-98c4-08b797ec1a19)
 
 # Setup
 
@@ -45,6 +45,7 @@ curl -X POST -H "Content-Type: application/json" -d '{ "name":"connector-json-1"
 ```shell script
 curl -X POST -H "Content-Type: application/json" -d '{ "name":"connector-json-2", "config":{"connector.class":"com.mongodb.kafka.connect.MongoSinkConnector","tasks.max":"1","topics":"json","collection":"json2","internal.key.converter.schemas.enable":"false","key.converter.schemas.enable":"false","database":"test","connection.uri":"mongodb://admin:admin@host.docker.internal:27017","value.converter.schemas.enable":"false","value.converter":"org.apache.kafka.connect.storage.StringConverter"}}' "localhost:8083/connectors"
 ```
+# Monitoring 
 
 **Create prometheus datasource and import dashboard template :**
 
