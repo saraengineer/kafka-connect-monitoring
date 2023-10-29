@@ -13,8 +13,10 @@ This a quick set up of  kafka, kafka ui and kafka connect with a monitoring thro
 * Portainer (not required). 
 
 Here we are using a mongo kafka sink connector. Jar is downloaded from [here](https://repo1.maven.org/maven2/org/mongodb/kafka/mongo-kafka-connect/1.11.0/) and put in the kafka-jars.
-We are using jmx exporter to collect kafka connect metrics. ( see the prometheus directory)
-Metrics config and grafana dashboard are download from [here](https://github.com/confluentinc/kafka-connect-monitoring-sandbox) and put in grafana directory. 
+
+We are using jmx exporter to collect kafka connect metrics.
+
+Metrics config and grafana dashboard are download from [here](https://github.com/confluentinc/kafka-connect-monitoring-sandbox). 
 
 **docker compose :**
 
