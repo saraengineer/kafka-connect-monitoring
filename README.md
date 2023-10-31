@@ -62,5 +62,5 @@ Finally, to monitor the kafka connector: go to Grafana http://localhost:3000:
 
 # References
 
-See this [article](https://medium.com/@mengineer/kafka-connect-how-to-add-monitoring-with-prometheus-and-grafana-f0cb3d73ffd2) for more explanation.
+See this [article](https://medium.com/@mengineer/kafka-connect-how-to-add-monitoring-with-prometheus-and-grafana-2eeb516e88a3) for more explanation.
 
